@@ -7,7 +7,7 @@ import "./index.css"; // Import your index.css file here
 // Wrap the App component with BrowserRouter and set the basename
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/project-15/movie-app">
+    <BrowserRouter basename="movie-app">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
@@ -17,3 +17,4 @@ ReactDOM.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+//dont need
