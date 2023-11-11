@@ -16,7 +16,7 @@ const App = () => {
   //function to get movie objects from api
   const getMovieRequest = async (searchValue) => {
     //url for api please see my slack message for api code
-    const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=263d22d8`;
+    const url = `https://www.omdbapi.com/?s=${searchValue}&apikey=263d22d8`;
     //get api response as variable using fetch
     const response = await fetch(url);
     //convert response to json
